@@ -37,10 +37,12 @@ body {
 
 #previous {
     font-size: 30px;
+    height: 65px;
 }
 
 #current {
     font-size: 60px;
+    height: 65px;
 }
 
 .buttons {
@@ -63,4 +65,9 @@ body {
     border-radius: 10px;
     border: none;
     font-size: 20px;
+}
+
+#previous,
+#current {
+    padding-left: 3px;
 }
